@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+<h1>Rock Paper Scissors Game</h1>
+<h2>Play rock-paper-scissors against the computer and see who wins!!!</h2>
+<form action="/play" method="post">
+    <label for="choice">Choose your move:</label>
+    <select name="choice" id="choice">
+            <option value="0">Rock</option>
+            <option value="1">Paper</option>
+            <option value="2">Scissors</option>
+        </select>
+    <button type="submit">Play</button>
+</form>
+</body>
+</html>

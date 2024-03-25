@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/03/RockPaperScissor-2880x1620_Lede.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 70px;
+    color: #00CED1;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+p {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px 50px;
+}
+
+form {
+    margin-top: 100px;
+    color: #FFFFFF; /* White color */
+    font-size: 36px; /* Decreased font size for better proportion */
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    padding: 10px 50px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #A9A9A9;
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: #F5F5DC;
+    color: #008B8B; /* Dark cyan color */
+    border: none;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 20px;
+    font-size: 24px; /* Decreased font size for better proportion */
+    text-align: center;
+}
+
+button:hover {
+    background-color: #FFF8DC; /* Lighter off-white color */
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #FFF8DC; /* Lighter off-white color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

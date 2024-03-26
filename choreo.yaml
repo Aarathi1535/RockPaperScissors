@@ -1,4 +1,0 @@
-name: my-flask-app
-version: 1
-runtime: python3.8
-main: app:app

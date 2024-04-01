@@ -9,15 +9,16 @@ body {
 h1 {
     font-size: 70px;
     margin-top: 70px;
-    color: #00CED1;
+    color: #ADD8E6;
     text-align: center;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 10px 10px black;
 }
 
 h2 {
     color: #FFFFFF;
     font-size: 40px;
     margin-top: 150px;
+    text-shadow: 2px 10px 10px black;
 }
 
 p {
@@ -26,12 +27,13 @@ p {
     margin-top: 50px;
     font-family: "Times New Roman", Times, serif;
     padding: 10px 50px;
+    text-shadow: 2px 10px 10px black;
 }
 
 form {
     margin-top: 100px;
-    color: #FFFFFF; 
-    font-size: 36px; 
+    color: #FFFFFF;
+    font-size: 36px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     display: flex;
@@ -50,17 +52,17 @@ select {
 button {
     padding: 10px 40px;
     background-color: #F5F5DC;
-    color: #008B8B; /* Dark cyan color */
+    color: #008B8B;
     border: none;
     cursor: pointer;
     font-family: "Times New Roman", Times, serif;
     margin-top: 20px;
-    font-size: 24px; 
+    font-size: 24px;
     text-align: center;
 }
 
 button:hover {
-    background-color: #FFF8DC; 
+    background-color: #FFF8DC;
 }
 
 a {

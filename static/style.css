@@ -11,7 +11,7 @@ h1 {
     margin-top: 70px;
     color: #00CED1;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px ;
 }
 
 h2 {
@@ -30,8 +30,8 @@ p {
 
 form {
     margin-top: 100px;
-    color: #FFFFFF; /* White color */
-    font-size: 36px; /* Decreased font size for better proportion */
+    color: #FFFFFF; 
+    font-size: 36px; 
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     display: flex;
@@ -55,18 +55,18 @@ button {
     cursor: pointer;
     font-family: "Times New Roman", Times, serif;
     margin-top: 20px;
-    font-size: 24px; /* Decreased font size for better proportion */
+    font-size: 24px; 
     text-align: center;
 }
 
 button:hover {
-    background-color: #FFF8DC; /* Lighter off-white color */
+    background-color: #FFF8DC; 
 }
 
 a {
     display: block;
     margin-top: 20px;
-    color: #FFF8DC; /* Lighter off-white color */
+    color: #FFF8DC; 
     text-decoration: none;
 }
 
